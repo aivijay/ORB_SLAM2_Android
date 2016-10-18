@@ -1,6 +1,6 @@
 This project is an Android version for ORB_SLAM2 based on Raul Mur-Artal's opensource project: [ORB_SLAM2](https://github.com/raulmur/ORB_SLAM2 "ORB_SLAM2").
 
-Author: **Frank**
+Author: **Frank / Vijay**
 
 **If anyone would like to only have a test on it, please visit:[ORB_SLAM2_Android_APK](http://fir.im/uzdx "ORB_SLAM@_Android_APK");**
 
@@ -10,7 +10,7 @@ Author: **Frank**
 
 
  - Eclipse with ADT and android-ndk-r11 or later (build successfully with r13);
- - OpenCV4Android2.4.9,download here:[opencv4android 2.4.9](http://opencv.org/downloads.html "opencv"); Use this same version ofOpenCV4Android as others seems to break during building because of changes in function signatures
+ - OpenCV4Android2.4.9,download here:[opencv4android 2.4.9](http://opencv.org/downloads.html "opencv"); Use this same version of OpenCV4Android as others seems to break during building because of changes in function signatures
  - All necessary dependencies required by ORB_SLAM2 except pangolin(I removed pangolin and rewrited opengl part for android);
  
 2.Build Project 
